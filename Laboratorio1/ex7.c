@@ -1,25 +1,25 @@
 /*
-    Exercício 7 - Lab.1 - Fatorial ERRO
+    ExercÃ­cio 7 - Lab.1 - Fatorial ERRO
 
-    Marcus Vinícius Almeida Florêncio, 12021BCC016, 2022
+    Marcus VinÃ­cius Almeida FlorÃªncio, 12021BCC016, 2022
 
     RESPOSTA:
 
-    O erro ocorre pois a variável do tipo int só armazena números que vão até 2,147,483,647;
-    Quando o programa vai mostrar o resultado do 13! em diante, os resultados estarão errados
-    pois na verdade eles são maiores que 2,147,483,647. Assim, para resolver o problema basta
-    substituir as variáveis do tipo int pelo tipo float que consegue armazenar números bem maiores.
+    O erro ocorre pois a variÃ¡vel do tipo int sÃ³ armazena nÃºmeros que vÃ£o atÃ© 2,147,483,647;
+    Quando o programa vai mostrar o resultado do 13! em diante, os resultados estarÃ£o errados
+    pois na verdade eles sÃ£o maiores que 2,147,483,647. Assim, para resolver o problema basta
+    substituir as variÃ¡veis do tipo int pelo tipo float que consegue armazenar nÃºmeros bem maiores.
 
-    Obs: No final do programa fiz o código que conseguiria resolver o problema.
+    Obs: No final do programa fiz o cÃ³digo que conseguiria resolver o problema.
 */
 
 #include <stdio.h>
 
 int main()
 {
-    int t = 1;
-    int n1 = 10;
-    int n2 = 15;
+    int t = 1;          //fatorial do NÂ°
+    int n1 = 10;        //inicio do intervalo
+    int n2 = 15;        //fim do intervalo
     int i;
 
     printf("<< Fatorial >>\n");
