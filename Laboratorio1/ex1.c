@@ -1,7 +1,7 @@
 /*
-    Exercício 1 - Lab.1
+    ExercÃ­cio 1 - Lab.1 - Loteria
 
-    Marcus Vinícius Almeida Florêncio, 12021BCC016, 2022
+    Marcus VinÃ­cius Almeida FlorÃªncio, 12021BCC016, 2022
 */
 #include <stdio.h>
 
