@@ -312,3 +312,22 @@ int main()
 }
 */
 
+/*
+    for(i=0; i<tamanho; i++)
+    {
+        comp = v[i];
+        for(k=i; k<tamanho; k++)
+        {
+                pon = &v[k];
+                pon++;
+                if((comp == *pon))
+                {
+                    v[k] = v[k+1];
+                    realloc(v, tamanho-1);
+                }
+        }
+
+
+    }
+*/
+
